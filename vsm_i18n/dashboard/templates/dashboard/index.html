@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+{% load i18n %}
+<html lang="en">
+    <head>
+
+    </head>
+    <body>
+        {%for menu in menu_list%}
+            {{menu}}
+        {%endfor%}
+
+        <br>
+        {%for panel in panel_list%}
+            {{panel}}
+        {%endfor%}
+
+        <br>
+        {%for login in login_list%}
+            {{login}}
+        {%endfor%}
+
+        <br>
+        {%for manage_server in manage_server_list%}
+            {{manage_server}}
+        {%endfor%}
+
+        <br>
+        {%for manage_device in manage_device_list%}
+            {{manage_device}}
+        {%endfor%}
+
+        <br>
+        {%for ceph_upgrade in ceph_upgrade_list%}
+            {{ceph_upgrade}}
+        {%endfor%}
+
+        <br>
+        {%for ecprofile_mgmt in ecprofile_mgmt_list%}
+            {{ecprofile_mgmt}}
+        {%endfor%}
+
+        <br>
+        {%for storage_group_status in storage_group_status_list%}
+            {{storage_group_status}}
+        {%endfor%}
+
+        <br>
+        <hr>
+        {% trans "Validate" %}<br>
+        {% trans "Submit" %}<br>
+        {% trans "Update" %}<br>
+        {% trans "Cancel" %}<br>
+        {% trans "Reset" %}<br>
+        {% trans "Description" %}<br>
+        {% trans "Notes" %}<br>
+        {% trans "Actions" %}<br>
+        <br>
+        <hr>
+        {% trans "VSM Status" %}<br>
+        {% trans "VSM Version" %}<br>
+        {% trans "Uptime" %}<br>
+        {% trans "Ceph Version" %}<br>
+
+        {% trans "Cluster Status" %}<br>
+        {% trans "Used" %}<br>
+        {% trans "Total" %}<br>
+
+        {% trans "Storage Group" %}<br>
+        {% trans "Updated at" %}<br>
+        {% trans "Normal" %}<br>
+        {% trans "Near Full" %}<br>
+        {% trans "Full" %}<br>
+
+        {% trans "OSD" %}<br>
+        {% trans "Epoch" %}<br>
+        {% trans "Updated at" %}<br>
+        {% trans "Up" %}<br>
+        {% trans "Down" %}<br>
+        {% trans "In" %}<br>
+        {% trans "Out" %}<br>
+        {% trans "Normal" %}<br>
+        {% trans "Near Full" %}<br>
+        {% trans "Full" %}<br>
+
+        {% trans "Monitor" %}<br>
+        {% trans "Epoch" %}<br>
+        {% trans "Updated at" %}<br>
+
+        {% trans "MDS" %}<br>
+        {% trans "Epoch" %}<br>
+        {% trans "Updated at" %}<br>
+        {% trans "Data" %}<br>
+        {% trans "Metadata" %}<br>
+        {% trans "In" %}<br>
+        {% trans "Up" %}<br>
+        {% trans "Failed" %}<br>
+        {% trans "Stopped" %}<br>
+
+        {% trans "PG" %}<br>
+        {% trans "Updated at" %}<br>
+
+        {% trans "Performance" %}<br>
+        {% trans "IOPS" %}<br>
+        {% trans "Latency (MilliSeconds)" %}<br>
+        {% trans "Bandwidth (MB/s)" %}<br>
+        {% trans "CPU (%)" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Add New OSD" %}<br>
+        {% trans "Select Server" %}<br>
+        {% trans "Journal Device" %}<br>
+        {% trans "Storage Group" %}<br>
+        {% trans "OSD Location" %}<br>
+        {% trans "Data Device" %}<br>
+        {% trans "Weight" %}<br>
+        {% trans "Add" %}<br>
+        {% trans "Batch Import OSD" %}<br>
+        {% trans "Server" %}<br>
+        {% trans "Weight" %}<br>
+        {% trans "Storage Group" %}<br>
+        {% trans "Journal Device" %}<br>
+        {% trans "Data Device" %}<br>
+        {% trans "Action" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Manage Cluster" %}<br>
+        {% blocktrans %}From here you can import a cluster{% endblocktrans %}<br>
+        {% trans "Monitor Host" %}<br>
+        {% trans "Auto Detect" %}<br>
+        {% trans "Monitor Keyring" %}<br>
+        {% trans "Crushmap" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Add Cache Tier" %}<br>
+        {% trans "Cache Tier Pool" %}<br>
+        {% trans "Storage Tier Pool" %}<br>
+        {% trans "Cache Mode" %}<br>
+        {% trans "FORCE NONEMPTY" %}<br>
+        {% trans "Advanced Settings" %}<br>
+        {% trans "Hit Set Type" %}<br>
+        {% trans "Hit Set Count" %}<br>
+        {% trans "Hit Set Period(s)" %}<br>
+        {% trans "Target Maximum Memory(MB)" %}<br>
+        {% trans "Target Dirty Ratio" %}<br>
+        {% trans "Target Full Ratio" %}<br>
+        {% trans "Target Maximum Objects" %}<br>
+        {% trans "Target Minimum Flush Age(m)" %}<br>
+        {% trans "Target Minimum Evict Age(m)" %}<br>
+
+        {% trans "Remove Cache Tier" %}<br>
+
+        {% trans "Create Replicated Pool" %}<br>
+        {% trans "Pool Name" %}<br>
+        {% trans "Tag" %}<br>
+        {% trans "Storage Group" %}<br>
+        {% trans "Enable PG Auto-tune" %}<br>
+        {% trans "Pool Quota(GB)" %}<br>
+
+        {% trans "Create Erasure Coded Pool" %}<br>
+        {% trans "Enable Pool Quota" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Create EC Profile" %}<br>
+        {% trans "Name" %}<br>
+        {% trans "Plugin Name" %}<br>
+        {% trans "Plugin Path" %}<br>
+        {% trans "PG Number" %}<br>
+        {% trans "Plugin Key_Value Pairs" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Storage Group List" %}<br>
+        {% trans "Add Storage Group" %}<br>
+        {% trans "Name" %}<br>
+        {% trans "Class" %}<br>
+        {% trans "Friendly Name" %}<br>
+        {% trans "Take Name(Choose Type, Type Number)" %}<br>
+        {% trans "Marker" %}<br>
+        {% trans "Action" %}<br>
+        {% trans "Class" %}<br>
+        {% trans "Take" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Zone Name" %}<br>
+        {% trans "Parent Zone Name" %}<br>
+        {% trans "Parent Zone Type" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Threshold" %}<br>
+        {% trans "Capacity Warning Thresholds" %}<br>
+        {% trans "Storage Group Near Full" %}<br>
+        {% trans "Storage Group Full" %}<br>
+        {% trans "Ceph OSD Near Full" %}<br>
+        {% trans "Ceph OSD Full" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Monitor Summary" %}<br>
+        {% trans "Monmap Epoch" %}<br>
+        {% trans "Monitors" %}<br>
+        {% trans "Election Epoch" %}<br>
+        {% trans "Quorum" %}<br>
+        {% trans "Last Updated" %}<br>
+
+        <br>
+        <hr>
+        {% trans "MDS Summary" %}<br>
+        {% trans "Epoch" %}<br>
+        {% trans "Up" %}<br>
+        {% trans "In" %}<br>
+        {% trans "Max" %}<br>
+        {% trans "Failed" %}<br>
+        {% trans "Stopped" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Object Summary" %}<br>
+        {% trans "Degraded Objects" %}<br>
+        {% trans "Degraded Totals" %}<br>
+        {% trans "Degraded Ratio" %}<br>
+        {% trans "Unfound Objects" %}<br>
+        {% trans "Unfound Totals" %}<br>
+        {% trans "Unfound Ratio" %}<br>
+
+        {% trans "Performance Summary" %}<br>
+        {% trans "Read" %}<br>
+        {% trans "Write" %}<br>
+        {% trans "Operation" %}<br>
+
+        {% trans "PG Summary" %}<br>
+        {% trans "PG Map Version" %}<br>
+        {% trans "Total PGs" %}<br>
+        {% trans "Update" %}<br>
+
+        {% trans "Capacity Summary" %}<br>
+        {% trans "Data Capacity Used" %}<br>
+        {% trans "Total Capacity Used" %}<br>
+        {% trans "Capacity Available" %}<br>
+        {% trans "Capacity Total" %}<br>
+
+        <br>
+        <hr>
+        {% trans "Current Value" %}<br>
+        {% trans "New Value" %}<br>
+
+    <body>
+</html>
