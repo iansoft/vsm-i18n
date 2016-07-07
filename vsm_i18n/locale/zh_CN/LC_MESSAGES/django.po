@@ -1137,5 +1137,8 @@ msgstr "用户名"
 msgid "Confirm Password"
 msgstr "确认密码"
 
-msgid "Manage Partitions"
+msgid "Manage Partition"
 msgstr "管理磁盘分区"
+
+msgid "Manage RBD"
+msgstr "管理RBD"
