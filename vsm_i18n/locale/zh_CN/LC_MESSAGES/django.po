@@ -1137,8 +1137,334 @@ msgstr "用户名"
 msgid "Confirm Password"
 msgstr "确认密码"
 
+msgid "Config Management"
+msgstr "配置管理"
+
 msgid "Manage Partition"
 msgstr "管理磁盘分区"
 
+msgid "Select Disk"
+msgstr "选择磁盘"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Partition Type"
+msgstr "分区模式"
+
 msgid "Manage RBD"
 msgstr "管理RBD"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "New Format"
+msgstr "新格式化"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Clone"
+msgstr "克隆"
+
+msgid "Flatten"
+msgstr "展开"
+
+msgid "Snapshot"
+msgstr "快照"
+
+msgid "Rollback"
+msgstr "回滚"
+
+msgid "export"
+msgstr "导出"
+
+msgid "import"
+msgstr "导出"
+
+msgid "objects"
+msgstr "对象"
+
+
+msgid "Parent Snapshot"
+msgstr "父级镜像"
+
+msgid "Group Name"
+msgstr "组名"
+
+msgid "Pre Auto Snap"
+msgstr "前一个快照"
+
+msgid "Next Auto Snap"
+msgstr "后一个快照"
+
+msgid "Copy RBD"
+msgstr "复制RBD"
+
+msgid "Source Pool"
+msgstr "Pool源"
+
+msgid "Source Image"
+msgstr "镜像源"
+
+msgid "Source Snapshot"
+msgstr "快照源"
+
+msgid "Destination Pool"
+msgstr "目标Pool"
+
+msgid "Destination Image"
+msgstr "目标镜像"
+
+msgid "Destination Image Name"
+msgstr "目标镜像"
+
+msgid "From here you can copy RBD to a new RBD."
+msgstr "在此你可以拷贝出新的RBD"
+
+msgid "RBD Group"
+msgstr "RBD组"
+
+msgid "Auto snapshot start at"
+msgstr "快照开始于"
+
+msgid "Auto snapshot interval(Hour)"
+msgstr "快照间隔"
+
+msgid "From here you can clone RBD from a supportting cloning snapshot."
+msgstr "这里可以克隆RBD卷"
+
+msgid "Create Snapshot"
+msgstr "创建镜像"
+
+msgid "Batch Snapshot"
+msgstr "批量镜像"
+
+msgid "Image"
+msgstr "镜像"
+
+msgid "Snapshot Name"
+msgstr "快照名称"
+
+msgid "Comments"
+msgstr "备注"
+
+msgid "From here you can create a snapshot of the RBD."
+msgstr "在此你可以创建一个RBD的快照"
+
+msgid "Rollback Snapshot"
+msgstr "回滚快照"
+
+msgid "From here you can rollback RBD to a snapshot"
+msgstr "在此你可以根据某个快照，回滚RBD"
+
+msgid "Export RBD"
+msgstr "导出RBD"
+
+msgid "Export from Snap"
+msgstr "从快照导出"
+
+msgid "From here you can export RBD partially or completly."
+msgstr "在此你可以完全或者部分的导出RBD"
+
+msgid "Import RBD"
+msgstr "导入RBD"
+
+msgid "Data file to import"
+msgstr "导入数据文件"
+
+msgid "From here you can Import file exported to a RBD."
+msgstr "在此你可以导入RBD"
+
+msgid "Objects List"
+msgstr "对象列表"
+
+msgid "From here you can list all objects detail of the RBD."
+msgstr "这里可以列出卷里所有对象"
+
+msgid "OBJECT NAME"
+msgstr "对象名"
+
+msgid "PGID"
+msgstr "PG编号"
+
+msgid "UP OSD SET"
+msgstr "在线OSD集"
+
+msgid "ACTING OSD SET"
+msgstr "当值OSD集"
+
+msgid "PRIMARY OSD"
+msgstr "主OSD"
+
+msgid "Create RBD"
+msgstr "创建RBD"
+
+msgid "Image Format"
+msgstr "镜像格式化"
+
+msgid "From here you can create a new RBD."
+msgstr "在此你可以创建一个RBD的快照"
+
+msgid "Manage Snapshot"
+msgstr "管理快照"
+
+msgid "Snapshot List"
+msgstr "快照列表"
+
+msgid "Snapshot ID"
+msgstr "快照ID"
+
+msgid "Image Status" 
+msgstr "镜像状态"
+
+msgid "Created at"
+msgstr "创建于"
+
+msgid "Manage RBD Group"
+msgstr "管理RBD组"
+
+msgid "RBD Group List"
+msgstr "RBD组列表"
+
+msgid "From here you can create a rbd group."
+msgstr "在此你创建一个RBD组"
+
+msgid "Manage Keyring"
+msgstr "管理Keyring"
+
+msgid "Keyring List"
+msgstr "Keyring列表"
+
+msgid "User Key"
+msgstr "用户Key"
+
+msgid "Caps"
+msgstr "能力"
+
+msgid "Create Keyring"
+msgstr "创建Keyring"
+
+msgid "From here you can create a keyring."
+msgstr "在此你可以创建一个keyring"
+
+msgid "Manage CephFS"
+msgstr "管理CephFS"
+
+msgid "CephFS List"
+msgstr "CephFS列表"
+
+msgid "FS Name"
+msgstr "FS名称"
+
+msgid "Metadata Pool"
+msgstr "元数据Pool"
+
+msgid "Data Pool"
+msgstr "数据Pool"
+
+msgid "Create CephFS"
+msgstr "创建CephFS"
+
+msgid "From here you can create a ceph fs"
+msgstr "在此你可以创建一个ceph fs"
+
+msgid "Benchmark Case"
+msgstr "评测用例"
+
+msgid "Manage Benchmark Case"
+msgstr "管理评测用例"
+
+msgid "Benchmark Case List"
+msgstr "评测用例列表"
+
+msgid "IO Engine"
+msgstr "IO引擎"
+
+msgid "Read/Write"
+msgstr "读/写"
+
+msgid "Run Time"
+msgstr "运行时间"
+
+msgid "Running Hosts(s)"
+msgstr "运行主机"
+
+msgid "Create Benchmark Case"
+msgstr "创建评测用例"
+
+msgid "Benchmark Case Name"
+msgstr "评测用例名"
+
+msgid "Block Size"
+msgstr "块大小"
+
+msgid "IO Depth"
+msgstr "IO深度"
+
+msgid "Client Name"
+msgstr "客户端名称"
+
+msgid "Additional Options"
+msgstr "附加操作"
+
+msgid "From here you can create a new Benchmark Case."
+msgstr "这里可以创建评测用例"
+
+msgid "Run Benchmark Case"
+msgstr "运行评测用例"
+
+msgid "Case"
+msgstr "评测用例"
+
+msgid "Host"
+msgstr "主机"
+
+msgid "RBD number"
+msgstr "RBD编号"
+
+msgid "RBD Size"
+msgstr "RBD大小"
+
+msgid "From here you can run a Benchmark Case."
+msgstr "这里可以运行评测用例"
+
+msgid "Manage VSM Config"
+msgstr "管理VSM Config"
+
+msgid "filter"
+msgstr "过滤"
+
+msgid "Section"
+msgstr "段"
+
+msgid "Default Value"
+msgstr "默认值"
+
+msgid "Manage Ceph Config"
+msgstr "管理Ceph Config"
+
+msgid "global"
+msgstr "全局"
+
+msgid "Detect"
+msgstr "检测"
+
+msgid "Create Ceph Config"
+msgstr "创建Ceph Config"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Category"
+msgstr "分类"
+
+msgid "Alterable"
+msgstr "可修改"
+
+msgid "Create"
+msgstr "创建"
+
