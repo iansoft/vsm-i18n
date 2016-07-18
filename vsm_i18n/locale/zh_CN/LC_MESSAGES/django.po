@@ -51,12 +51,12 @@ msgid "Actions"
 msgstr "操作"
 
 #: .\dashboard\templates\dashboard\index.html:59 .\dashboard\views.py:175
-msgid "VSM Status"
-msgstr "VSM 状态"
+msgid "CSM Status"
+msgstr "CSM状态"
 
 #: .\dashboard\templates\dashboard\index.html:60
-msgid "VSM Version"
-msgstr "软件版本"
+msgid "CSM Version"
+msgstr "CSM版本"
 
 #: .\dashboard\templates\dashboard\index.html:61
 msgid "Uptime"
@@ -288,39 +288,39 @@ msgid "Advanced Settings"
 msgstr "高级设置"
 
 #: .\dashboard\templates\dashboard\index.html:143
-msgid "Hit Set Type"
+msgid "Hit set type"
 msgstr "命中集合类型"
 
 #: .\dashboard\templates\dashboard\index.html:144
-msgid "Hit Set Count"
+msgid "Hit set count"
 msgstr "命中集合数量"
 
 #: .\dashboard\templates\dashboard\index.html:145
-msgid "Hit Set Period(s)"
+msgid "Hit set period(s)"
 msgstr "命中集合周期"
 
 #: .\dashboard\templates\dashboard\index.html:146
-msgid "Target Maximum Memory(MB)"
+msgid "Target maximum memory(MB)"
 msgstr "目标最大内存(MB)"
 
 #: .\dashboard\templates\dashboard\index.html:147
-msgid "Target Dirty Ratio"
+msgid "Target dirty ratio"
 msgstr "目标脏数据比率"
 
 #: .\dashboard\templates\dashboard\index.html:148
-msgid "Target Full Ratio"
+msgid "Target full ratio"
 msgstr "目标已满标志比率"
 
 #: .\dashboard\templates\dashboard\index.html:149
-msgid "Target Maximum Objects"
+msgid "Target maximum objects"
 msgstr "目标最大对象数"
 
 #: .\dashboard\templates\dashboard\index.html:150
-msgid "Target Minimum Flush Age(m)"
+msgid "Target minimum flush age(m)"
 msgstr "目标最小刷新年龄(m)"
 
 #: .\dashboard\templates\dashboard\index.html:151
-msgid "Target Minimum Evict Age(m)"
+msgid "Target minimum evict age(m)"
 msgstr "目标最小剔除年龄(m)"
 
 #: .\dashboard\templates\dashboard\index.html:153 .\dashboard\views.py:96
@@ -582,12 +582,12 @@ msgid "Server Management"
 msgstr "服务器管理"
 
 #: .\dashboard\views.py:12
-msgid "Openstack Integration"
-msgstr "Openstack 集成"
+msgid "OpenStack Integration"
+msgstr "OpenStack 集成"
 
 #: .\dashboard\views.py:13
-msgid "VSM Management"
-msgstr "VSM 管理"
+msgid "CSM Management"
+msgstr "CSM 管理"
 
 #: .\dashboard\views.py:14
 msgid "VSM"
@@ -1183,7 +1183,7 @@ msgid "export"
 msgstr "导出"
 
 msgid "import"
-msgstr "导出"
+msgstr "导入"
 
 msgid "objects"
 msgstr "对象"
@@ -1205,7 +1205,7 @@ msgid "Copy RBD"
 msgstr "复制RBD"
 
 msgid "Source Pool"
-msgstr "Pool源"
+msgstr "存储池源"
 
 msgid "Source Image"
 msgstr "镜像源"
@@ -1214,7 +1214,7 @@ msgid "Source Snapshot"
 msgstr "快照源"
 
 msgid "Destination Pool"
-msgstr "目标Pool"
+msgstr "目标存储池"
 
 msgid "Destination Image"
 msgstr "目标镜像"
@@ -1345,6 +1345,33 @@ msgstr "用户Key"
 msgid "Caps"
 msgstr "能力"
 
+msgid "MON Caps"
+msgstr "监视器能力"
+
+msgid "MON Cap"
+msgstr "监视器能力"
+
+msgid "MDS Caps"
+msgstr "MDS能力"
+
+msgid "MDS Cap"
+msgstr "MDS能力"
+
+msgid "OSD Caps"
+msgstr "OSD能力"
+
+msgid "OSD Cap"
+msgstr "OSD能力"
+
+msgid "POOL Caps"
+msgstr "POOL 能力"
+
+msgid "Namespace Caps"
+msgstr "命名空间 能力"
+
+msgid "Namespace"
+msgstr "命名空间"
+
 msgid "Create Keyring"
 msgstr "创建Keyring"
 
@@ -1361,10 +1388,10 @@ msgid "FS Name"
 msgstr "FS名称"
 
 msgid "Metadata Pool"
-msgstr "元数据Pool"
+msgstr "元数据存储池"
 
 msgid "Data Pool"
-msgstr "数据Pool"
+msgstr "数据存储池"
 
 msgid "Create CephFS"
 msgstr "创建CephFS"
@@ -1445,7 +1472,7 @@ msgid "Default Value"
 msgstr "默认值"
 
 msgid "Manage Ceph Config"
-msgstr "管理Ceph Config"
+msgstr "管理Ceph配置"
 
 msgid "global"
 msgstr "全局"
@@ -1454,7 +1481,7 @@ msgid "Detect"
 msgstr "检测"
 
 msgid "Create Ceph Config"
-msgstr "创建Ceph Config"
+msgstr "创建Ceph配置"
 
 msgid "Value"
 msgstr "值"
@@ -1467,4 +1494,107 @@ msgstr "可修改"
 
 msgid "Create"
 msgstr "创建"
+
+msgid "Clone RBD"
+msgstr "克隆RBD"
+
+msgid "CSM"
+msgstr "CSM"
+
+msgid "Manage Periodic Tasks"
+msgstr "管理定时任务"
+
+msgid "Periodic Tasks List"
+msgstr "定时任务列表"
+
+msgid "Task Name"
+msgstr "任务名称"
+
+msgid "Method Name"
+msgstr "方法名称"
+
+msgid "Spacing"
+msgstr "间隔"
+
+msgid "Last Run"
+msgstr "上次运行"
+
+msgid "Service Topic"
+msgstr "服务"
+
+
+msgid "Manage Account"
+msgstr "管理账户"
+
+msgid "Manage CSM Config"
+msgstr "管理CSM配置"
+
+msgid "Add MDS"
+msgstr "新增 MDS"
+
+msgid "Remove MDS"
+msgstr "移除 MDS"
+
+msgid "OSD Count"
+msgstr "OSD数量"
+
+msgid "Remove Pool"
+msgstr "移除存储池"
+
+msgid "Snapshot Mode"
+msgstr "快照模式"
+
+msgid "Copy Pool"
+msgstr "复制存储池"
+
+msgid "Remove Snap"
+msgstr "移除快照"
+
+msgid "Export"
+msgstr "导出"
+
+msgid "Import"
+msgstr "导入"
+
+msgid "Run"
+msgstr "运行"
+
+msgid "Terminate"
+msgstr "终端"
+
+msgid "OSD Summary"
+msgstr "概述"
+
+msgid "Osdmap Epoch"
+msgstr "纪元"
+
+msgid "OSDs Total"
+msgstr "总计"
+
+msgid "OSDs In"
+msgstr "In"
+
+msgid "OSDs Up"
+msgstr "Up"
+
+msgid "Device Info"
+msgstr "设备信息"
+
+msgid "Scrub"
+msgstr "刷洗"
+
+msgid "OSD Scrub"
+msgstr "OSD刷洗"
+
+msgid "Scrub Mode"
+msgstr "刷洗模式"
+
+msgid "ordinal"
+msgstr "序号"
+
+msgid "Add OpenStack Access"
+msgstr "新增OpenStack接口"
+
+msgid "Update OpenStack Access"
+msgstr "更新OpenStack接口"
 
