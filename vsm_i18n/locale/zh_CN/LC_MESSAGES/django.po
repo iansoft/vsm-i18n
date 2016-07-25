@@ -346,7 +346,7 @@ msgstr "启用放置组数量自动调整"
 
 #: .\dashboard\templates\dashboard\index.html:160
 msgid "Pool Quota(GB)"
-msgstr "存储池容量配额(GB)"
+msgstr "存储池容量选举(GB)"
 
 #: .\dashboard\templates\dashboard\index.html:162
 msgid "Create Erasure Coded Pool"
@@ -354,7 +354,7 @@ msgstr "创建纠删码存储池"
 
 #: .\dashboard\templates\dashboard\index.html:163
 msgid "Enable Pool Quota"
-msgstr "启用存储池配额"
+msgstr "启用存储池选举"
 
 #: .\dashboard\templates\dashboard\index.html:167
 msgid "Create EC Profile"
@@ -467,7 +467,7 @@ msgstr "选举版本"
 
 #: .\dashboard\templates\dashboard\index.html:208
 msgid "Quorum"
-msgstr "配额"
+msgstr "选举"
 
 #: .\dashboard\templates\dashboard\index.html:209
 msgid "Last Updated"
@@ -590,8 +590,8 @@ msgid "CSM Management"
 msgstr "CSM 管理"
 
 #: .\dashboard\views.py:14
-msgid "VSM"
-msgstr "VSM"
+msgid "CSM"
+msgstr "CSM"
 
 #: .\dashboard\views.py:20
 msgid "Manage Servers"
@@ -810,7 +810,7 @@ msgstr "大小"
 
 #: .\dashboard\views.py:106
 msgid "Quota (GB)"
-msgstr "配额(GB)"
+msgstr "选举(GB)"
 
 #: .\dashboard\views.py:107
 msgid "Cache Tier Status"
@@ -1459,8 +1459,6 @@ msgstr "RBD大小"
 msgid "From here you can run a Benchmark Case."
 msgstr "这里可以运行评测用例"
 
-msgid "Manage VSM Config"
-msgstr "管理VSM Config"
 
 msgid "filter"
 msgstr "过滤"
@@ -1498,8 +1496,7 @@ msgstr "创建"
 msgid "Clone RBD"
 msgstr "克隆RBD"
 
-msgid "CSM"
-msgstr "CSM"
+
 
 msgid "Manage Periodic Tasks"
 msgstr "管理定时任务"
