@@ -275,7 +275,9 @@ def index(request):
     #     _("Confirm Password"),
     # ]
 
-    return render(request, 'dashboard/index2.html', {})
+    output = _('Today is %s %s.') %("09","19")
+
+    return render(request, 'dashboard/index2.html', {"output": output})
     # return render(request, 
     #             'dashboard/index.html', 
     #             {"menu_list":menu_list, "panel_list":panel_list, "login_list":login_list,

@@ -52,11 +52,11 @@ msgstr "操作"
 
 #: .\dashboard\templates\dashboard\index.html:59 .\dashboard\views.py:175
 msgid "CSM Status"
-msgstr "CSM状态"
+msgstr "系统状态"
 
 #: .\dashboard\templates\dashboard\index.html:60
 msgid "CSM Version"
-msgstr "CSM版本"
+msgstr "软件版本"
 
 #: .\dashboard\templates\dashboard\index.html:61
 msgid "Uptime"
@@ -145,11 +145,11 @@ msgstr "Out"
 
 #: .\dashboard\templates\dashboard\index.html:85 .\dashboard\views.py:63
 msgid "Monitor"
-msgstr "监视器"
+msgstr "监视服务"
 
 #: .\dashboard\templates\dashboard\index.html:89
 msgid "MDS"
-msgstr "MDS"
+msgstr "元数据服务"
 
 #: .\dashboard\templates\dashboard\index.html:92
 msgid "Data"
@@ -177,9 +177,6 @@ msgstr "放置组"
 msgid "Performance"
 msgstr "性能"
 
-#: .\dashboard\templates\dashboard\index.html:103
-msgid "IOPS"
-msgstr "IOPS"
 
 #: .\dashboard\templates\dashboard\index.html:104
 msgid "Latency (MilliSeconds)"
@@ -191,8 +188,12 @@ msgstr "带宽(MB/s)"
 
 #: .\dashboard\templates\dashboard\index.html:106
 #, python-format
-msgid "CPU (%%)"
-msgstr "CPU (%%)"
+msgid "CPU"
+msgstr "处理器负荷"
+
+msgid "IOPS"
+msgstr "吞吐量"
+
 
 #: .\dashboard\templates\dashboard\index.html:110
 msgid "Add New OSD"
@@ -249,7 +250,7 @@ msgstr "请导入集群"
 
 #: .\dashboard\templates\dashboard\index.html:130
 msgid "Monitor Host"
-msgstr "监视器主机"
+msgstr "监视服务主机"
 
 #: .\dashboard\templates\dashboard\index.html:131
 msgid "Auto Detect"
@@ -257,11 +258,11 @@ msgstr "自动检测"
 
 #: .\dashboard\templates\dashboard\index.html:132
 msgid "Monitor Keyring"
-msgstr "监视器钥匙"
+msgstr "监视服务钥匙"
 
 #: .\dashboard\templates\dashboard\index.html:133
 msgid "Crushmap"
-msgstr "Crushmap"
+msgstr "管理存储组"
 
 #: .\dashboard\templates\dashboard\index.html:137 .\dashboard\views.py:95
 msgid "Add Cache Tier"
@@ -415,7 +416,7 @@ msgstr "选择"
 
 #: .\dashboard\templates\dashboard\index.html:189
 msgid "Zone Name"
-msgstr "域名称"
+msgstr "保护域名称"
 
 #: .\dashboard\templates\dashboard\index.html:190
 msgid "Parent Zone Name"
@@ -451,15 +452,15 @@ msgstr "对象存储设备已满"
 
 #: .\dashboard\templates\dashboard\index.html:204
 msgid "Monitor Summary"
-msgstr "监视器概要信息"
+msgstr "监视服务概要信息"
 
 #: .\dashboard\templates\dashboard\index.html:205
 msgid "Monmap Epoch"
-msgstr "监视器版本"
+msgstr "监视服务版本"
 
 #: .\dashboard\templates\dashboard\index.html:206
 msgid "Monitors"
-msgstr "监视器"
+msgstr "监视服务"
 
 #: .\dashboard\templates\dashboard\index.html:207
 msgid "Election Epoch"
@@ -475,7 +476,7 @@ msgstr "更新于"
 
 #: .\dashboard\templates\dashboard\index.html:213
 msgid "MDS Summary"
-msgstr "元数据服务器概要信息"
+msgstr "元数据服务概要信息"
 
 #: .\dashboard\templates\dashboard\index.html:217
 msgid "Max"
@@ -583,11 +584,11 @@ msgstr "服务器管理"
 
 #: .\dashboard\views.py:12
 msgid "OpenStack Integration"
-msgstr "OpenStack 集成"
+msgstr "第三方集成"
 
 #: .\dashboard\views.py:13
 msgid "CSM Management"
-msgstr "CSM 管理"
+msgstr "系统管理"
 
 #: .\dashboard\views.py:14
 msgid "CSM"
@@ -611,7 +612,7 @@ msgstr "导入集群"
 
 #: .\dashboard\views.py:24
 msgid "Ceph Upgrade"
-msgstr "Ceph升级"
+msgstr "集群升级"
 
 #: .\dashboard\views.py:25
 msgid "Manage Pools"
@@ -643,11 +644,11 @@ msgstr "对象存储设备状态"
 
 #: .\dashboard\views.py:32
 msgid "Monitor Status"
-msgstr "监视器状态"
+msgstr "监视服务状态"
 
 #: .\dashboard\views.py:33
 msgid "MDS Status"
-msgstr "元数据服务器状态"
+msgstr "元数据服务状态"
 
 #: .\dashboard\views.py:34
 msgid "PG Status"
@@ -691,11 +692,11 @@ msgstr "移除服务器"
 
 #: .\dashboard\views.py:50
 msgid "Add Monitors"
-msgstr "新增监视器"
+msgstr "新增监视服务"
 
 #: .\dashboard\views.py:51
 msgid "Remove Monitors"
-msgstr "移除监视器"
+msgstr "移除监视服务"
 
 #: .\dashboard\views.py:52
 msgid "Start Servers"
@@ -717,23 +718,23 @@ msgstr "编号"
 
 #: .\dashboard\views.py:58
 msgid "Management Address"
-msgstr "管理网络地址"
+msgstr "管理地址"
 
 #: .\dashboard\views.py:59
 msgid "Public Address"
-msgstr "公用网络地址"
+msgstr "公用地址"
 
 #: .\dashboard\views.py:60
 msgid "Cluster Address"
-msgstr "集群网络地址"
+msgstr "集群地址"
 
 #: .\dashboard\views.py:62
 msgid "OSDs (Data Drives)"
-msgstr "对象存储设备(数据盘)"
+msgstr "对象存储设备"
 
 #: .\dashboard\views.py:64 .\dashboard\views.py:80
 msgid "Zone"
-msgstr "域"
+msgstr "保护域"
 
 #: .\dashboard\views.py:65 .\dashboard\views.py:81 .\dashboard\views.py:109
 #: .\dashboard\views.py:141 .\dashboard\views.py:153 .\dashboard\views.py:235
@@ -778,19 +779,19 @@ msgstr "容量状态"
 
 #: .\dashboard\views.py:88
 msgid "Package URL"
-msgstr "包 URL"
+msgstr "包路径"
 
 #: .\dashboard\views.py:89
 msgid "Key URL"
-msgstr "键 URL"
+msgstr "键路径"
 
 #: .\dashboard\views.py:90
 msgid "Proxy URL"
-msgstr "代理 URL"
+msgstr "代理路径"
 
 #: .\dashboard\views.py:91 .\dashboard\views.py:256
 msgid "SSH User Name"
-msgstr "SSH 用户名"
+msgstr "互信用户名"
 
 #: .\dashboard\views.py:98
 msgid "Create EC Pool"
@@ -846,7 +847,7 @@ msgstr "纠删码概要列表"
 
 #: .\dashboard\views.py:134
 msgid "Attached Pools"
-msgstr "已连接池"
+msgstr "池数"
 
 #: .\dashboard\views.py:135
 msgid "Capacity Total (GB)"
@@ -862,7 +863,7 @@ msgstr "可用容量(GB)"
 
 #: .\dashboard\views.py:138
 msgid "Percent Used Capacity(%)"
-msgstr "容量百分比（%）"
+msgstr "空闲容量比（%）"
 
 #: .\dashboard\views.py:139
 msgid "Largest Node Capacity Used (GB)"
@@ -943,7 +944,7 @@ msgstr "存储池列表"
 
 #: .\dashboard\views.py:174
 msgid "OSD Name"
-msgstr "OSD 名称"
+msgstr "名称"
 
 #: .\dashboard\views.py:177
 msgid "Crush Weight"
@@ -979,7 +980,7 @@ msgstr "健康"
 
 #: .\dashboard\views.py:195
 msgid "Detail"
-msgstr "详细"
+msgstr "详情"
 
 #: .\dashboard\views.py:196
 msgid "Skew"
@@ -987,19 +988,23 @@ msgstr "偏离"
 
 #: .\dashboard\views.py:197
 msgid "Latency"
-msgstr "延时"
+msgstr "时延"
+
+
+msgid "Monitor List"
+msgstr "监视服务列表"
 
 #: .\dashboard\views.py:198
 msgid "MB Total (disk)"
-msgstr "MB 总量 (disk)"
+msgstr "总容量(MB)"
 
 #: .\dashboard\views.py:199
 msgid "MB Used (disk)"
-msgstr "MB 已使用 (disk)"
+msgstr "已用容量(MB)"
 
 #: .\dashboard\views.py:200
 msgid "MB Available (disk)"
-msgstr "MB 可用 (disk)"
+msgstr "可用容量 (MB)"
 
 #: .\dashboard\views.py:201
 msgid "Percent Available"
@@ -1015,7 +1020,7 @@ msgstr "状态"
 
 #: .\dashboard\views.py:213
 msgid "MDS List"
-msgstr "MDS 列表"
+msgstr "元数据服务列表"
 
 #: .\dashboard\views.py:218
 msgid "Pool"
@@ -1023,7 +1028,7 @@ msgstr "池"
 
 #: .\dashboard\views.py:219
 msgid "Image Name"
-msgstr "镜像名称"
+msgstr "卷名称"
 
 #: .\dashboard\views.py:220
 msgid "Size(MB)"
@@ -1035,7 +1040,7 @@ msgstr "顺序"
 
 #: .\dashboard\views.py:223
 msgid "Format"
-msgstr "格式化"
+msgstr "格式"
 
 #: .\dashboard\views.py:226
 msgid "RBD List"
@@ -1086,8 +1091,8 @@ msgid "Password"
 msgstr "密码"
 
 #: .\dashboard\views.py:254
-msgid "Auth Url"
-msgstr "验证 Url"
+msgid "Auth URL"
+msgstr "验证路径"
 
 #: .\dashboard\views.py:255
 msgid "Region Name"
@@ -1147,22 +1152,28 @@ msgid "Select Disk"
 msgstr "选择磁盘"
 
 msgid "Start"
-msgstr "开始"
+msgstr "开始（请指定单位（GB、MB），例如：1GB）"
 
 msgid "End"
+msgstr "结束（请指定单位（GB、MB），例如：2000MB）"
+
+msgid "Start Section"
+msgstr "开始"
+
+msgid "End Section"
 msgstr "结束"
 
 msgid "Partition Type"
 msgstr "分区模式"
 
 msgid "Manage RBD"
-msgstr "管理RBD"
+msgstr "管理卷"
 
 msgid "Type"
 msgstr "类型"
 
 msgid "New Format"
-msgstr "新格式化"
+msgstr "新格式"
 
 msgid "Copy"
 msgstr "复制"
@@ -1190,7 +1201,7 @@ msgstr "对象"
 
 
 msgid "Parent Snapshot"
-msgstr "父级镜像"
+msgstr "父级快照"
 
 msgid "Group Name"
 msgstr "组名"
@@ -1202,13 +1213,13 @@ msgid "Next Auto Snap"
 msgstr "后一个快照"
 
 msgid "Copy RBD"
-msgstr "复制RBD"
+msgstr "复制卷"
 
 msgid "Source Pool"
 msgstr "存储池源"
 
 msgid "Source Image"
-msgstr "镜像源"
+msgstr "卷源"
 
 msgid "Source Snapshot"
 msgstr "快照源"
@@ -1217,16 +1228,16 @@ msgid "Destination Pool"
 msgstr "目标存储池"
 
 msgid "Destination Image"
-msgstr "目标镜像"
+msgstr "目标卷"
 
 msgid "Destination Image Name"
-msgstr "目标镜像"
+msgstr "目标卷"
 
 msgid "From here you can copy RBD to a new RBD."
-msgstr "在此你可以拷贝出新的RBD"
+msgstr "在此你可以拷贝出新的卷"
 
 msgid "RBD Group"
-msgstr "RBD组"
+msgstr "卷组"
 
 msgid "Auto snapshot start at"
 msgstr "快照开始于"
@@ -1235,16 +1246,16 @@ msgid "Auto snapshot interval(Hour)"
 msgstr "快照间隔"
 
 msgid "From here you can clone RBD from a supportting cloning snapshot."
-msgstr "这里可以克隆RBD卷"
+msgstr "这里可以克隆卷"
 
 msgid "Create Snapshot"
-msgstr "创建镜像"
+msgstr "创建快照"
 
 msgid "Batch Snapshot"
-msgstr "批量镜像"
+msgstr "批量快照"
 
 msgid "Image"
-msgstr "镜像"
+msgstr "卷"
 
 msgid "Snapshot Name"
 msgstr "快照名称"
@@ -1253,7 +1264,7 @@ msgid "Comments"
 msgstr "备注"
 
 msgid "From here you can create a snapshot of the RBD."
-msgstr "在此你可以创建一个RBD的快照"
+msgstr "在此你可以创建一个卷的快照"
 
 msgid "Rollback Snapshot"
 msgstr "回滚快照"
@@ -1262,22 +1273,22 @@ msgid "From here you can rollback RBD to a snapshot"
 msgstr "在此你可以根据某个快照，回滚RBD"
 
 msgid "Export RBD"
-msgstr "导出RBD"
+msgstr "导出卷"
 
 msgid "Export from Snap"
 msgstr "从快照导出"
 
 msgid "From here you can export RBD partially or completly."
-msgstr "在此你可以完全或者部分的导出RBD"
+msgstr "在此你可以完全或者部分的导出卷里的数据"
 
 msgid "Import RBD"
-msgstr "导入RBD"
+msgstr "导入卷"
 
 msgid "Data file to import"
 msgstr "导入数据文件"
 
 msgid "From here you can Import file exported to a RBD."
-msgstr "在此你可以导入RBD"
+msgstr "在此你可以导入卷"
 
 msgid "Objects List"
 msgstr "对象列表"
@@ -1289,7 +1300,7 @@ msgid "OBJECT NAME"
 msgstr "对象名"
 
 msgid "PGID"
-msgstr "PG编号"
+msgstr "放置组编号"
 
 msgid "UP OSD SET"
 msgstr "在线OSD集"
@@ -1301,13 +1312,13 @@ msgid "PRIMARY OSD"
 msgstr "主OSD"
 
 msgid "Create RBD"
-msgstr "创建RBD"
+msgstr "创建卷"
 
 msgid "Image Format"
-msgstr "镜像格式化"
+msgstr "卷格式"
 
 msgid "From here you can create a new RBD."
-msgstr "在此你可以创建一个RBD的快照"
+msgstr "在此你可以创建一个卷的快照"
 
 msgid "Manage Snapshot"
 msgstr "管理快照"
@@ -1319,73 +1330,89 @@ msgid "Snapshot ID"
 msgstr "快照ID"
 
 msgid "Image Status" 
-msgstr "镜像状态"
+msgstr "卷状态"
 
 msgid "Created at"
 msgstr "创建于"
 
 msgid "Manage RBD Group"
-msgstr "管理RBD组"
+msgstr "管理卷组"
 
 msgid "RBD Group List"
-msgstr "RBD组列表"
+msgstr "卷组列表"
 
 msgid "From here you can create a rbd group."
-msgstr "在此你创建一个RBD组"
+msgstr "在此你创建一个卷组"
 
 msgid "Manage Keyring"
-msgstr "管理Keyring"
+msgstr "管理钥匙串"
 
 msgid "Keyring List"
-msgstr "Keyring列表"
+msgstr "钥匙串列表"
 
 msgid "User Key"
-msgstr "用户Key"
+msgstr "钥匙串"
+
+msgid "User"
+msgstr "用户"
+
+msgid "Client"
+msgstr "客户端"
 
 msgid "Caps"
-msgstr "能力"
+msgstr "权限"
 
 msgid "MON Caps"
-msgstr "监视器能力"
+msgstr "权限（监视服务）"
 
 msgid "MON Cap"
-msgstr "监视器能力"
+msgstr "权限（监视服务）"
 
 msgid "MDS Caps"
-msgstr "MDS能力"
+msgstr "权限（元数据服务）"
 
 msgid "MDS Cap"
-msgstr "MDS能力"
+msgstr "权限（元数据服务）"
 
 msgid "OSD Caps"
-msgstr "OSD能力"
+msgstr "权限（对象存储设备）"
 
 msgid "OSD Cap"
-msgstr "OSD能力"
+msgstr "权限（对象存储设备）"
 
 msgid "POOL Caps"
-msgstr "POOL 能力"
+msgstr "权限（池）"
 
 msgid "Namespace Caps"
-msgstr "命名空间 能力"
+msgstr "权限（命名空间）"
 
 msgid "Namespace"
 msgstr "命名空间"
 
+msgid "From here you can upgrade ceph.Before submit,please make sure the Controller can access the package and key url."
+msgstr "在此你可以升级存储集群软件。在提交前，请先确认各字段值是有效的！"
+
+
+msgid "- Proxy URL looks like 'proxy=http://username:password@proxy_ip:port/'"
+msgstr "代理路径格式：'proxy=http://username:password@proxy_ip:port/'"
+
+msgid "- Make sure the ssh user has made mutual trust with all ceph nodes."
+msgstr "请确认您已经手动创建了控制服务器到所有存储节点的互信！"
+
 msgid "Create Keyring"
-msgstr "创建Keyring"
+msgstr "创建钥匙串"
 
 msgid "From here you can create a keyring."
-msgstr "在此你可以创建一个keyring"
+msgstr "在此你可以创建一个钥匙串"
 
 msgid "Manage CephFS"
-msgstr "管理CephFS"
+msgstr "管理文件系统"
 
 msgid "CephFS List"
-msgstr "CephFS列表"
+msgstr "文件系统列表"
 
 msgid "FS Name"
-msgstr "FS名称"
+msgstr "文件系统名称"
 
 msgid "Metadata Pool"
 msgstr "元数据存储池"
@@ -1394,10 +1421,10 @@ msgid "Data Pool"
 msgstr "数据存储池"
 
 msgid "Create CephFS"
-msgstr "创建CephFS"
+msgstr "创建文件系统"
 
 msgid "From here you can create a ceph fs"
-msgstr "在此你可以创建一个ceph fs"
+msgstr "在此你可以创建一个文件系统"
 
 msgid "Benchmark Case"
 msgstr "评测用例"
@@ -1451,10 +1478,10 @@ msgid "Host"
 msgstr "主机"
 
 msgid "RBD number"
-msgstr "RBD编号"
+msgstr "卷编号"
 
 msgid "RBD Size"
-msgstr "RBD大小"
+msgstr "卷大小"
 
 msgid "From here you can run a Benchmark Case."
 msgstr "这里可以运行评测用例"
@@ -1470,16 +1497,61 @@ msgid "Default Value"
 msgstr "默认值"
 
 msgid "Manage Ceph Config"
-msgstr "管理Ceph配置"
+msgstr "管理存储集群配置"
 
 msgid "global"
 msgstr "全局"
 
+
+msgid "mon"
+msgstr "监视服务设置"
+
+msgid "osd"
+msgstr "对象存储设备设置"
+
+msgid "mds"
+msgstr "元数据服务设置"
+
 msgid "Detect"
 msgstr "检测"
 
+msgid "From here you can remove cache tiers"
+msgstr "在此你可以删除缓存层"
+
+msgid "From here you can create a new pool."
+msgstr "在此你可以创建一个副本池"
+
+msgid "From here you can create an erasure coded pool"
+msgstr "在此你可以创建纠删码池"
+
+msgid "From here you can copy pool"
+msgstr "在此你可以复制池"
+
+msgid "From here you can create a user"
+msgstr "在此你可以创建用户"
+
+msgid "Your user name must be combination of letter,number ,'@', '.' and '_'"
+msgstr "用户名必须是字母、数字、‘@’、‘.’和‘_’的组合"
+
+msgid "RBD As Iscsi"
+msgstr "导出为ISCSI卷"
+
+msgid "ISCSI Server"
+msgstr "ISCSI服务器:"
+
+msgid "AS ISCSI"
+msgstr "导出为ISCSI卷"
+
+msgid "From here you can export rbd as backend of iscsi target server."
+msgstr "在此你可以导出卷作为ISCSI卷"
+
+
+
+#Your password must be at least 8 characters long, and contain at least one number, one upper case letter, one lower case letter, and one of the special characters !@#$%^&*(){}[]<>?
+
+
 msgid "Create Ceph Config"
-msgstr "创建Ceph配置"
+msgstr "创建存储集群配置"
 
 msgid "Value"
 msgstr "值"
@@ -1494,7 +1566,7 @@ msgid "Create"
 msgstr "创建"
 
 msgid "Clone RBD"
-msgstr "克隆RBD"
+msgstr "克隆卷"
 
 
 
@@ -1524,16 +1596,16 @@ msgid "Manage Account"
 msgstr "管理账户"
 
 msgid "Manage CSM Config"
-msgstr "管理CSM配置"
+msgstr "管理系统配置"
 
 msgid "Add MDS"
-msgstr "新增 MDS"
+msgstr "新增元数据服务"
 
 msgid "Remove MDS"
-msgstr "移除 MDS"
+msgstr "移除元数据服务"
 
 msgid "OSD Count"
-msgstr "OSD数量"
+msgstr "对象存储设备"
 
 msgid "Remove Pool"
 msgstr "移除存储池"
@@ -1581,7 +1653,7 @@ msgid "Scrub"
 msgstr "刷洗"
 
 msgid "OSD Scrub"
-msgstr "OSD刷洗"
+msgstr "刷洗OSD"
 
 msgid "Scrub Mode"
 msgstr "刷洗模式"
@@ -1594,4 +1666,101 @@ msgstr "新增OpenStack接口"
 
 msgid "Update OpenStack Access"
 msgstr "更新OpenStack接口"
+
+msgid "Server Status"
+msgstr "服务器状态"
+
+msgid "Storage Resource Mnagment"
+msgstr "存储资源管理"
+
+msgid "Click on left tree to select parent Zone."
+msgstr "点击左边数上的结点，作为父级保护域"
+
+msgid "Snap Mode"
+msgstr "快照模式"
+
+msgid "Remove Snaphot"
+msgstr "删除快照"
+
+msgid "From here you can create cache tiers"
+msgstr "在这里，你可以添加缓存池"
+
+msgid "Add Lock"
+msgstr "加锁"
+
+msgid "Remove Lock"
+msgstr "解锁"
+
+msgid "support cloning"
+msgstr "支持克隆"
+
+msgid "default"
+msgstr "默认"
+
+msgid "Server Name"
+msgstr "服务器主机名"
+
+msgid "Zone Info"
+msgstr "保护域信息"
+
+msgid "Create RBD Group"
+msgstr "创建卷组"
+
+msgid "Run Immediately"
+msgstr "立即执行"
+
+msgid "Change Interval"
+msgstr "修改执行间隔"
+
+msgid "W"
+msgstr "写"
+
+msgid "R"
+msgstr "读"
+
+msgid "X"
+msgstr "执行"
+
+
+msgid "%s days %s hours ago"
+msgstr "%s 天 %s 小时之前"
+
+msgid "%s minutes ago"
+msgstr "%s 分钟之前"
+
+msgid "%s seconds ago"
+msgstr "%s 秒之前"
+
+
+msgid "%s days %s hours"
+msgstr "%s 天 %s 小时"
+
+msgid "%s minutes"
+msgstr "%s 分钟"
+
+msgid "%s seconds"
+msgstr "%s 秒"
+
+
+msgid "The page you were looking for doesn't exist"
+msgstr "访问地址不存在"
+
+msgid "You may have mistyped the address or the page may have moved."
+msgstr "你可能输入了错误的地址，或者当前页面已经被移除"
+
+msgid "Overview"
+msgstr "概览"
+
+msgid "Forbidden"
+msgstr "禁止"
+
+msgid "You do not have the required privileges to access this content.If you believe this message to be in error, please contact your project manager."
+msgstr "你没有权限访问此页面。请联系管理员"
+
+msgid "Something went wrong!"
+msgstr "系统错误"
+
+msgid "An unexpected error has occurred. Try using the \"back\" button to return to the previous page, or contact your local administrator."
+msgstr "发生未知的错误。请尝试使用back按钮回到上次访问页面，或者联系系统管理员"
+
 
